@@ -45,6 +45,14 @@ function setBg () {
 
 
 
+        function refreshPage() {
+            // Reload the current page
+            location.reload();
+        }
+
+
+
+
 
 
 

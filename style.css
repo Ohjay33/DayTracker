@@ -24,6 +24,12 @@ p{
     font-family: "Flavors";
 }
 
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
 button{
     height: 100px;
     width: 100px;
