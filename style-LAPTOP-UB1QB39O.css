@@ -1,0 +1,46 @@
+.main{
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 800px;
+}
+
+h1{
+    /* font-weight: bolder; */
+    font-size: 100px;
+    font-family: "Bungee Outline";
+    margin: 0px;
+}
+
+h2{
+    font-size:50px ;
+    font-family: "Lakki Reddy";
+}
+
+p{
+    font-size: 40px;
+    font-family: "Flavors";
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    border-radius: 25%;
+    box-shadow: 3px 3px;
+
+    font-size: large;
+    /* font-weight: bolder; */
+}
+
+
+
+
+
