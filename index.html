@@ -5,35 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bungee Outline">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lakki Reddy">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Flavors">
-
-
     <title>My Day Tracker</title>
 </head>
 
-<body>
-    <div class="main">
-        <h1>What Day is it?</h1>
-        <h2 id="currentDate"></h2>
-        <p id="message"></p>
-        <div class="buttons">
-            <button onclick="displayDate() ; setBg()">Click for date!!</button>
-            <button onclick="refreshPage()">Refresh</button>
+<body id="day_tracker">
+    <div class="wrap">
+        <div id="main">
+            <div id="tab_container">
+                <div class="tab" id="t1">
+                    <div class="day">Monday</div>
+                </div>
+                <div class="tab" id="t2">
+                    <div class="day">Tuesday</div>
+                </div>
+                <div class="tab" id="t3">
+                    <div class="day">Wednesday</div>
+                </div>
+                <div class="tab" id="t4">
+                    <div class="day">Thursday</div>
+                </div>
+                <div class="tab" id="t5">
+                    <div class="day">Friday</div>
+                </div>
+                <div class="tab" id="t6">
+                    <div class="day">Saturday</div>
+                </div>
+                <div class="tab" id="today">
+                    <div class="day">Sunday</div>
+                </div>
 
+            </div>
+            <div id="message"></div>
         </div>
-
-    
+        <footer>
+            <button>What day is it??</button>
+        </footer>
     </div>
+    <!-- <footer>
+        <a href="index"></a>
+    </footer> -->
 
     <script src="script.js"></script>
 
 </body>
 
 </html>
-
-
-
-
-
